@@ -16,10 +16,16 @@ person_two = input("Enter Name 2: ").upper()
 person_two_inp = person_two.replace(" ","")
 person_one_inp = person_one.replace(" ","")
 
+count1=0
+count2=0
+
 for char in person_one_inp:
-    if char in person_two_inp:
-        person_one_inp = person_one_inp.replace(char, '',1)
-        person_two_inp = person_two_inp.replace(char, '',1)
+    if char not in person_two_inp:
+        person_one_inp = person_one_inp.replace(char, '')
+
+for char in person_two_inp:
+    if char not in person_one_inp:
+        person_two_inp = person_two_inp.replace(char, '')        
 
 count = len(person_one_inp)+len(person_two_inp)
 
