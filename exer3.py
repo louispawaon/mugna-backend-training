@@ -10,8 +10,8 @@ for the output after a FLAMES game
 
 FLAMES_CHOICES=["FRIENDS","LOVERS","ACQUAINTANCES","MARRIAGE","ENEMIES","SIBLINGS"]
 
-person_one = input("Enter your name: ").upper()
-person_two = input("Enter your crush's name: ").upper()
+person_one = input("Enter Name 1: ").upper()
+person_two = input("Enter Name 2: ").upper()
 
 person_two_inp = person_two.replace(" ","")
 person_one_inp = person_one.replace(" ","")
