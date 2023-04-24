@@ -16,9 +16,6 @@ person_two = input("Enter Name 2: ").upper()
 person_two_inp = person_two.replace(" ","")
 person_one_inp = person_one.replace(" ","")
 
-count1=0
-count2=0
-
 for char in person_one_inp:
     if char not in person_two_inp:
         person_one_inp = person_one_inp.replace(char, '')
