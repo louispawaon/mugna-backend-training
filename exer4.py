@@ -8,6 +8,6 @@ pairs in a dictionary
 '''
 
 given_text = input("Enter string: ").lower()
-clean_text = ''.join(x for x in given_text if x.isalnum() or x.isspace())
+clean_text = ''.join(char for char in given_text if char.isalnum() or char.isspace())
 occurence = {word: clean_text.split().count(word) for word in clean_text.split()}
 print(occurence)
