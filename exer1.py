@@ -4,7 +4,7 @@ Exer1
 Instruction
 
 Write a program that accepts an input value (range: 60-100)
-an prints a message based on the following range of values:
+and prints a message based on the following range of values:
 
 RANGE                   MESSAGE
 60-74                   Derp!
