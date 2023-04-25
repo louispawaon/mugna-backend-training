@@ -35,7 +35,7 @@ class BankAccount(object):
         print(f"Successfully deposited {amount}, your remaining balance is {self.balance}")
 
     def withdraw(self, amount):
-        if self.balance - amount >=0:
+        if self.balance - amount >= 1000:
             self.balance-=amount
             print(f"Successfully withdrawn {amount}, your remaining balance is {self.balance}")
         else:
