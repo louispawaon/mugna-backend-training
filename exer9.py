@@ -17,7 +17,7 @@ class MemoryError(Exception):
     pass
 
 def hex_to_decimal(string):
-    if len(string) >8:
+    if len(string) > 8:
         raise MemoryError("String is beyond 4-bytes!")
     
     try:
