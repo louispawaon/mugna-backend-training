@@ -32,11 +32,11 @@ class BankAccount(object):
 
     def deposit(self, amount):
         self.balance+=amount
-        print(f"Successfully deposited {amount}, your remaining balance is {self.balance}")
+        print(f"Successfully deposited {amount}, your new balance is {self.balance}")
 
     def withdraw(self, amount):
-        if self.balance - amount >= 1000:
-            self.balance-=amount
+        if self.balance >= amount:
+            self.balance -= amount
             print(f"Successfully withdrawn {amount}, your remaining balance is {self.balance}")
         else:
             print("Overdraft!")
@@ -50,21 +50,19 @@ class StudentAccount(BankAccount):
 
     def withdraw(self, amount):
         if self.balance - amount >=StudentAccount.overdraft_limit:
-            self.balance-=amount
-            print(f"Successfully withdrawn {amount}, your remaining balance is {self.balance}")
+            self.balance -= amount
+            print(f"Student Account: Successfully withdrawn {amount}, your remaining balance is {self.balance}")
         else:
-            print("Overdraft!")
+            print("Student Account: Overdraft!")
 
+'''
 #Test Users
-Student1 = StudentAccount("Louis Pawaon", 1001, 1000)
-Person1 = BankAccount("Julienne Panes",2002,1000)
+Student1 = StudentAccount("Louis Pawaon", "1001", 1000)
 Student1.deposit(500)
+Student1.withdraw(500)
+
+Person1 = BankAccount("Julienne Panes","2002",1000)
 Person1.deposit(900)
-Student1.withdraw(600)
 Person1.withdraw(1000)
-Student1.add_interest()
-Person1.add_interest()
-
-    
-
+'''
     
