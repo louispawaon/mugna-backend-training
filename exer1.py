@@ -1,4 +1,4 @@
-'''
+"""
 Exer1
 
 Instruction
@@ -13,7 +13,7 @@ RANGE                   MESSAGE
 95-100                  Excellent!
 any other value         Invalid Value
 
-'''
+"""
 
 value = int(input("Enter a value: "))
 

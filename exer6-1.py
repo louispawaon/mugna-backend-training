@@ -1,4 +1,4 @@
-'''
+"""
 Exer 6-1
 
 Create a function that would create a multiplication table made of nested lists.
@@ -10,7 +10,7 @@ Create a function that would create a multiplication table made of nested lists.
 
 n = number of cols
 m = number of rows
-'''
+"""
 
 def multiplication_table(*args):
 

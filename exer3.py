@@ -1,4 +1,4 @@
-'''
+"""
 Exer 3
 
 Implement a simple FLAMES Games using Python!
@@ -6,7 +6,7 @@ Implement a simple FLAMES Games using Python!
 Let the user input two names, in form of string, and compute 
 for the output after a FLAMES game
 
-'''
+"""
 
 FLAMES_CHOICES=["FRIENDS","LOVERS","ACQUAINTANCES","MARRIAGE","ENEMIES","SIBLINGS"]
 

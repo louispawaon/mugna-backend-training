@@ -1,11 +1,11 @@
-'''
+"""
 Exer 5
 
 Let the user insert 3 string, save it in a text file,
 and display all the contents of the text file,
 sorted alphabetically
 
-'''
+"""
 
 text_1 = input("Enter String 1: ")
 text_2 = input("Enter String 2: ")

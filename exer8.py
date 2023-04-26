@@ -1,11 +1,11 @@
-'''
+"""
 Exer 8
 
 Create a decorator that would compute and display the 
 time it took to run the function, in milliseconds 
 (round off to 2 decimal places)
 
-'''
+"""
 import time
 
 def timing_decorator(param):

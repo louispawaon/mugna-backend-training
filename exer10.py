@@ -1,10 +1,10 @@
-'''
+"""
 Exer 10
 
 On this exercise we will be using the methods deposit() and withdraw() from exer7.py
 Write two Unit Test classes, one for each class (BankAccount, StudentAccount)
 and provide test cases that would check if they (methods) are working properly for different scenarios
-'''
+"""
 
 import unittest
 from exer7 import BankAccount, StudentAccount

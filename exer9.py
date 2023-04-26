@@ -1,4 +1,4 @@
-'''
+"""
 Exer 9
 
 Create a function that converts a 4-byte (8 digits) hexadecimal value
@@ -9,7 +9,7 @@ Create 2 custom exceptions:
 HexFormatError: raise if string does not fit with the format for hexadecimal
 MemoryError: raise if the string is beyond 4-bytes (8 hex digits)
 
-'''
+"""
 class HexFormatError(Exception):
     pass
 

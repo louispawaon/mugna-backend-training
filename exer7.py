@@ -1,4 +1,4 @@
-'''
+"""
 Exer 7
 
 The following code defines the start of a class to represent bank accounts:
@@ -21,7 +21,7 @@ Every StudentAccount should have an overdraft limit of 1000.
 Write a constructor for the new class. Override the withdraw() method to make sure that 
 students can withdraw money up to their overdraft limits.
 
-'''
+"""
 class BankAccount(object):
     interest_rate = 0.3
 

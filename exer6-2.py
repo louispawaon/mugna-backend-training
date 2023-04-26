@@ -1,9 +1,9 @@
-'''
+"""
 Exer 6-2
 
 Create a recursive function that would sort out a list of integers of undefined length.
 
-'''
+"""
 
 def sorter(given):
     if len(given)<=1:
