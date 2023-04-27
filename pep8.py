@@ -3,7 +3,6 @@ import datetime
 from math import sqrt
 from os import *
 
-
 def take_all_list(arg1, arg2, arg3=0, *args, **kwargs):
     """
     Docstring for take_all_list. Basically, this is a useless function, but would test how well you know about PEP-8.
@@ -22,7 +21,6 @@ def take_all_list(arg1, arg2, arg3=0, *args, **kwargs):
     if list_a is not None:
         print("list_a has an entry")
 
-
 def print_all_number(n):
     m = 0
     first = n
@@ -39,6 +37,7 @@ def print_all_number(n):
         print("TAMA!")
     else:
         print("MALI!")
+
 class ThisIsStudentClass:
     FIRSTNAME = 'A'
     LASTNAME = 'A'
@@ -49,7 +48,6 @@ class ThisIsStudentClass:
 
     def get_name(self):
         return f"{self.LASTNAME}, {self.FIRSTNAME}"
-
 
 def another_function():
     print(math.pi)
@@ -67,19 +65,21 @@ def another_function():
         return math.pi
     take_all_list(l, m, n)
 
-    """
-    Changes
 
-    - Removed Comments
-    - Spaces after commas in function arguments
-    - Used snake_case for function and variable names
-    - Added spaces for binary operators
-    - Added spaces after comment symbol ("#")
-    - Used "is not None" instead of "!=None"
-    - Used f string instead of str.format()
-    - Used blank lines after a function definition
-    - Used PascalCase for class names and camelCase for method names 
-    - Added self parameter in class methods
-    - Added try-except block with Exception
-    
-    """
+
+"""
+Changes
+
+- Removed Comments
+- Spaces after commas in function arguments
+- Used snake_case for function and variable names
+- Added spaces for binary operators
+- Added spaces after comment symbol ("#")
+- Used "is not None" instead of "!=None"
+- Used f string instead of str.format()
+- Used blank lines after a function definition
+- Used PascalCase for class names and camelCase for method names 
+- Added self parameter in class methods
+- Added try-except block with Exception
+
+"""
