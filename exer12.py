@@ -6,7 +6,11 @@ prime number (starting with lowest possible value) that contains
 a given integer in its digits
 
 div  = PrimeNumberDigit(13)
-next(div)
+next(div) -> 13
+next(div) -> 113
+next(div) -> 131
+next(div) -> 137
+next(div) -> 139
 
 """
 
