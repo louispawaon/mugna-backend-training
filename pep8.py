@@ -1,5 +1,7 @@
 import math
 import datetime
+from math import sqrt
+from os import *
 
 
 def take_all_list(arg1, arg2, arg3=0, *args, **kwargs):
@@ -29,20 +31,14 @@ def print_all_number(n):
     fourth = n + 3
     print(first, second, third, fourth)
     for n in range(n):
-        print(n)  # This will print n
-        m += n  # This will increment m with n
-        print(m)  # This will print m
+        print(n)
+        m += n 
+        print(m)  
     checker = m > sum(range(n))
     if checker:
         print("TAMA!")
     else:
         print("MALI!")
-
-
-from math import sqrt
-from os import *
-
-
 class ThisIsStudentClass:
     FIRSTNAME = 'A'
     LASTNAME = 'A'
@@ -56,7 +52,6 @@ class ThisIsStudentClass:
 
 
 def another_function():
-    # This will do something. I promise.
     print(math.pi)
     sqrt_of_pi = sqrt(math.pi)
     print("It's the square root of pi", sqrt_of_pi)
@@ -71,3 +66,20 @@ def another_function():
         print("ERROR!")
         return math.pi
     take_all_list(l, m, n)
+
+    """
+    Changes
+
+    - Removed Comments
+    - Spaces after commas in function arguments
+    - Used snake_case for function and variable names
+    - Added spaces for binary operators
+    - Added spaces after comment symbol ("#")
+    - Used "is not None" instead of "!=None"
+    - Used f string instead of str.format()
+    - Used blank lines after a function definition
+    - Used PascalCase for class names and camelCase for method names 
+    - Added self parameter in class methods
+    - Added try-except block with Exception
+    
+    """
