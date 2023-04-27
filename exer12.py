@@ -27,7 +27,7 @@ class PrimeNumberDigit:
             else:
                 self.current += 1
 
-    def is_prime(self,num):
+    def is_prime(self, num):
         if num < 2:
             return False
         for x in range(2, num):
