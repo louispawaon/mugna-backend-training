@@ -39,7 +39,7 @@ class PrimeNumberDigit:
                 return False
         return True
 
-div = PrimeNumberDigit(13)
+div = PrimeNumberDigit(1)
 print(next(div))
 print(next(div))
 print(next(div))
